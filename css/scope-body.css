@@ -1,0 +1,41 @@
+.scope-body__content{
+	display: grid;
+	padding-bottom: 158px;
+	gap:30px;
+}
+
+@media (max-width: 1300px){
+	.scope-body__content{
+		padding-bottom: 102px;
+	}
+
+}
+
+@media (max-width: 980px){
+	.scope-body__content{
+		padding-bottom: 68px;
+	}
+	
+	
+}
+
+@media (max-width: 768px){
+	.scope-body__content{
+		padding-bottom: 57px;
+	}
+	
+}
+
+@media (max-width: 568px){
+	.scope-body__content{
+		padding-bottom: 42px;
+	}
+	
+}
+
+@media (max-width: 320px){
+	.scope-body__content{
+		padding-bottom: 30px;
+	}
+	
+}

@@ -1,0 +1,146 @@
+.sighting-grid{
+	color:white;
+	background: url("/images/sighting-grid/bg_max.webp") center center/cover no-repeat;
+}
+
+.sighting-grid__content{
+	display: grid;
+	gap:24px;
+	padding-top: 56px;
+	padding-bottom: 48px;
+}
+
+.sighting-grid__list{
+	list-style-type: square;
+	padding-left: 15px;
+}
+
+.sighting-grid__item::marker{
+	color: var(--color-red);
+}
+
+.sighting-grid__description-top{
+	display: grid;
+	gap: 30px;
+}
+
+
+.sighting-grid__description-bottom{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:60px;
+	text-transform: uppercase;
+}
+
+.sighting-grid__list{
+	padding-top: 60px;
+  display: grid;
+	grid-template-rows: max-content;
+	gap:20px;
+}
+
+
+
+@media (max-width: 1300px){
+	
+	.sighting-grid{
+		background: url("/images/sighting-grid/bg_1300.webp") center center/cover no-repeat;
+	}
+
+	.sighting-grid__content{
+		gap:24px;
+		padding-top: 42px;
+		padding-bottom: 48px;
+	}
+
+	.sighting-grid__description-bottom{
+		gap:38px;
+	}
+	
+	.sighting-grid__list{
+		padding-top: 45px;
+		gap:15px;
+	}
+	
+}
+
+@media (max-width: 980px){
+	.sighting-grid{
+		background: url("/images/sighting-grid/bg_980.webp") center center/cover no-repeat;
+	}
+	
+	.sighting-grid__content{
+		padding-top: 32px;
+		padding-bottom: 25px;
+	}
+	
+	.sighting-grid__description-bottom{
+		gap:20px;
+	}
+	
+	.sighting-grid__list{
+		padding-top: 50px;
+		gap:8px;
+	}
+}
+
+@media (max-width: 768px){
+	
+	.sighting-grid{
+		background: url("/images/sighting-grid/bg_768.webp") center center/cover no-repeat;
+	}
+	
+	.sighting-grid__content{
+		padding-top: 55px;
+		padding-bottom: 20px;
+	}
+	
+	.sighting-grid__description-bottom{
+		gap:10px;
+	}
+	
+	.sighting-grid__list{
+		padding-top: 45px;
+		gap:15px;
+	}
+
+}
+
+@media (max-width: 568px){
+	.sighting-grid{
+		background: url("/images/sighting-grid/bg_568.webp") center center/cover no-repeat;
+	}
+	
+	.sighting-grid__content{
+		grid-template-columns: 1fr;
+		padding-top: 53px;
+		padding-bottom: 66px;
+	}
+	
+	.sighting-grid__description-bottom{
+		grid-template-columns: 1fr;
+		gap:42px;
+	}
+	
+	.sighting-grid__list{
+		padding-top: 0;
+		gap:15px;
+	}
+}
+
+@media (max-width: 320px){
+	
+	.sighting-grid{
+		background: url("/images/sighting-grid/bg_320.webp") center center/cover no-repeat;
+	}
+	.sighting-grid__content{
+		padding-top: 40px;
+	}
+	
+	.sighting-grid__list{
+		padding-top: 24px;
+		gap:42px;
+	}
+
+
+}

@@ -1,0 +1,96 @@
+.anti-fogging{
+	max-height: 699px;
+	padding-top: 104px;
+	padding-bottom: 149px;
+	background:
+		url("/images/anti-fogging/bg.webp") center center/cover no-repeat;
+}
+
+
+
+.anti-fogging__content{
+	position: relative;
+	color:#ffffff;
+}
+
+.anti-fogging__description{
+	position: absolute;
+}
+
+.anti-fogging__image img{
+	width: 100%;
+}
+
+.anti-fogging__description .text{
+	width: 70%;
+}
+
+@media (max-width:1300px) {
+	.anti-fogging{
+		max-height: 522px;
+		padding-top: 66px;
+		padding-bottom: 99px;
+	}
+	
+	.anti-fogging__title{
+		padding-top: 66px;
+	}
+}
+
+
+@media (max-width:980px) {
+	
+	.anti-fogging{
+		max-height: 403px;
+		padding-top: 51px;
+		padding-bottom: 39px;
+	}
+	
+	.anti-fogging__image{
+		padding-top: 70px;
+	}
+}
+
+@media (max-width:768px) {
+	
+	.anti-fogging{
+		max-height: 403px;
+		padding-top: 44px;
+		padding-bottom: 70px;
+	}
+	
+	.anti-fogging__image {
+		padding-top: 100px;
+	}
+
+}
+
+@media (max-width: 568px){
+	.anti-fogging{
+		max-height: 380px;
+		padding-top: 51px;
+		padding-bottom: 65px;
+	}
+	
+	.anti-fogging__description {
+		position: static;
+	}
+	
+	.anti-fogging__description .text {
+		width: 100%;
+	}
+	
+	.anti-fogging__image {
+		padding-top: 0;
+	}
+	
+}
+
+@media (max-width: 320px){
+	.anti-fogging{
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	
+	
+}

@@ -1,0 +1,128 @@
+.hero__content {
+	padding-top: 50px;
+	background: url("/images/hero/bg_max.webp") center center/cover no-repeat;
+}
+
+.hero__title-wrapper{
+	width: max-content;
+	margin: auto;
+	transform: translateX(-20%);
+	max-width: 625px;
+	line-height: 1;
+}
+
+.hero__subtitle {
+	align-items: start;
+	text-transform: uppercase;
+	font-size: clamp(25px,8vw, 156px);
+	font-weight: 900;
+	line-height: 1;
+}
+
+
+.hero__image {
+	--width-image: 730px;
+	--left: 30%;
+	width: var(--width-image);
+	aspect-ratio: 16/9;
+	position: relative;
+	left: var(--left);
+}
+
+.hero__image > img {
+	width: 100%;
+	height: 100%;
+}
+
+.hero__description{
+	padding-top: 50px;
+	padding-bottom: 130px;
+}
+
+.description{
+	display: grid;
+	gap: 30px;
+}
+
+@media (max-width: 1300px) {
+	
+	.hero__content {
+		background: url("/images/hero/bg_1300.webp") center center/cover no-repeat;
+	}
+	
+	.hero__image {
+		--width-image: 540px;
+		--left: 40%;
+	}
+	
+	.hero__description{
+		padding-top: 40px;
+		padding-bottom: 100px;
+	}
+	
+}
+
+@media (max-width: 980px) {
+
+	
+	.hero__content {
+		padding-top: 42px;
+		background: url("/images/hero/bg_980.webp") center center/cover no-repeat;
+	}
+	.hero__image {
+		--width-image: 410px;
+	}
+	
+	.hero__description{
+		padding-top: 32px;
+		padding-bottom: 80px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+
+	
+	.hero__content {
+		padding-top: 30px;
+		background: url("/images/hero/bg_768.webp") center center/cover no-repeat;
+	}
+	.hero__image {
+		--width-image: 307px;
+	}
+	
+	.hero__description{
+		padding-top: 32px;
+		padding-bottom: 57px;
+	}
+	
+}
+
+@media (max-width: 568px) {
+
+	
+	.hero__content {
+		padding-top: 15px;
+		background: url("/images/hero/bg_568.webp") center center/cover no-repeat;
+	}
+	.hero__image {
+		--width-image: 174px;
+	}
+	
+	.hero__description{
+		padding-top: 33px;
+		padding-bottom: 21px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	.hero__content {
+		background: url("/images/hero/bg_568.webp") center center/cover no-repeat;
+	}
+	.hero__image {
+		--width-image: 90px;
+	}
+	
+	
+}

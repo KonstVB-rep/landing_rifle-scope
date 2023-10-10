@@ -1,0 +1,133 @@
+.lens__content {
+	padding: 135px 0;
+	background: url("/images/lens/bg_max.webp") center center/cover no-repeat;
+}
+
+.lens__wrapper{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	gap: 86px;
+}
+
+.lens__description{
+	position: relative;
+	top: -5px;
+	left: 45px;
+	align-self: baseline;
+	padding-top: 18%;
+}
+
+.lens__image{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.lens__image:before,
+.lens__image:after{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lens__image:before{
+	content: 'Обычная линза';
+	left: 10%;
+}
+
+.lens__image:after{
+	content: 'ED линза';
+	right: 10%;
+}
+
+.title__primary span{
+	color: #ffffff;
+}
+
+.title__secondary{
+	display: none;
+}
+
+@media (max-width: 1300px) {
+	
+	.lens__content {
+		padding: 100px 0;
+		background: url("/images/lens/bg_1300.webp") center center/cover no-repeat;
+	}
+	
+	.lens__description{
+		position: static;
+	}
+	
+	.lens__image:before,
+	.lens__image:after{
+		display: none;
+	}
+	
+	.lens__wrapper{
+		gap: 55px;
+	}
+	
+	.title__primary{
+		display: none;
+	}
+	
+	.title__secondary{
+		display: block;
+	}
+	
+}
+
+@media (max-width: 980px) {
+	
+	
+	.lens__content {
+		padding: 78px 0;
+		background: url("/images/lens/bg_980.webp") center center/cover no-repeat;
+	}
+	
+	.lens__wrapper{
+		gap: 45px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	
+	.lens__content {
+		padding: 118px 0;
+		background: url("/images/lens/bg_768.webp") center center/cover no-repeat;
+	}
+	
+	.lens__wrapper{
+		gap: 20px;
+	}
+}
+
+@media (max-width: 568px) {
+	
+	
+	.lens__content {
+		padding: 88px 0;
+		background: url("/images/lens/bg_568.webp") center center/cover no-repeat;
+	}
+	
+	.lens__wrapper{
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 320px) {
+	.lens__content {
+		padding: 50px 0;
+		background: url("/images/lens/bg_568.webp") center center/cover no-repeat;
+	}
+	.lens__wrapper{
+		gap: 20px;
+	}
+}
