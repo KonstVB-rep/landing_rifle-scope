@@ -1,6 +1,6 @@
 .lens__content {
 	padding: 135px 0;
-	background: url("/images/lens/bg_max.webp") center center/cover no-repeat;
+	background: url("../images/lens/bg_max.webp") center center/cover no-repeat;
 }
 
 .lens__wrapper{
@@ -56,7 +56,7 @@
 	
 	.lens__content {
 		padding: 100px 0;
-		background: url("/images/lens/bg_1300.webp") center center/cover no-repeat;
+		background: url("../images/lens/bg_1300.webp") center center/cover no-repeat;
 	}
 	
 	.lens__description{
@@ -87,7 +87,7 @@
 	
 	.lens__content {
 		padding: 78px 0;
-		background: url("/images/lens/bg_980.webp") center center/cover no-repeat;
+		background: url("../images/lens/bg_980.webp") center center/cover no-repeat;
 	}
 	
 	.lens__wrapper{
@@ -100,7 +100,7 @@
 	
 	.lens__content {
 		padding: 118px 0;
-		background: url("/images/lens/bg_768.webp") center center/cover no-repeat;
+		background: url("../images/lens/bg_768.webp") center center/cover no-repeat;
 	}
 	
 	.lens__wrapper{
@@ -113,7 +113,7 @@
 	
 	.lens__content {
 		padding: 88px 0;
-		background: url("/images/lens/bg_568.webp") center center/cover no-repeat;
+		background: url("../images/lens/bg_568.webp") center center/cover no-repeat;
 	}
 	
 	.lens__wrapper{
@@ -125,7 +125,7 @@
 @media (max-width: 320px) {
 	.lens__content {
 		padding: 50px 0;
-		background: url("/images/lens/bg_568.webp") center center/cover no-repeat;
+		background: url("../images/lens/bg_568.webp") center center/cover no-repeat;
 	}
 	.lens__wrapper{
 		gap: 20px;

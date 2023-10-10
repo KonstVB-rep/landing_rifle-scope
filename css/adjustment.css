@@ -21,15 +21,15 @@
 
 .adjustment__card:nth-child(1){
 	background:
-		url("/images/adjustment/bg_1.webp") center center/cover no-repeat;
+		url("../images/adjustment/bg_1.webp") center center/cover no-repeat;
 }
 .adjustment__card:nth-child(2){
 	background:
-		url("/images/adjustment/bg_2.webp") center center/cover no-repeat;
+		url("../images/adjustment/bg_2.webp") center center/cover no-repeat;
 }
 .adjustment__card:nth-child(3){
 	background:
-		url("/images/adjustment/bg_3.webp") center center/cover no-repeat;
+		url("../images/adjustment/bg_3.webp") center center/cover no-repeat;
 }
 
 .adjustment__card-content{
@@ -155,7 +155,7 @@
 	
 	.adjustment__card:nth-child(n){
 		background:
-			url("/images/adjustment/bg_gorizont.webp") center center/cover no-repeat;
+			url("../images/adjustment/bg_gorizont.webp") center center/cover no-repeat;
 	}
 	.adjustment__card-content{
 	  position: absolute;
@@ -213,15 +213,15 @@
 	
 	.adjustment__card:nth-child(1){
 		background:
-			url("/images/adjustment/bg_1.webp") center center/cover no-repeat;
+			url("../images/adjustment/bg_1.webp") center center/cover no-repeat;
 	}
 	.adjustment__card:nth-child(2){
 		background:
-			url("/images/adjustment/bg_2.webp") center center/cover no-repeat;
+			url("../images/adjustment/bg_2.webp") center center/cover no-repeat;
 	}
 	.adjustment__card:nth-child(3){
 		background:
-			url("/images/adjustment/bg_3.webp") center center/cover no-repeat;
+			url("../images/adjustment/bg_3.webp") center center/cover no-repeat;
 	}
 	
 	.adjustment__card-content {
