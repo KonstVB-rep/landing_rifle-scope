@@ -1,0 +1,1 @@
+(()=>{"use strict";const e={work:"Frontend development",name:"Konst",age:38,language:"Javascript",framework:"React"};console.log(e)})();
