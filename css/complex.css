@@ -26,10 +26,10 @@
 
 
 .complex-image{
-	position: absolute;
+	position: relative;
 	width: fit-content;
-	top: 65%;
-	left:30%;
+	top: -100px;
+	left: 30%;
 }
 
 @media (max-width: 1300px){
@@ -59,6 +59,12 @@
 		font-size: 16px;
 	}
 	
+	.complex-image{
+		width: fit-content;
+		top: -70px;
+		left: 30%;
+	}
+	
 }
 
 @media (max-width: 768px){
@@ -73,10 +79,10 @@
 	}
 	
 	.complex-image{
-		position: relative;
-		left:30%;
+		width: fit-content;
+		top: -20px;
+		left: 30%;
 	}
-	
 }
 
 
