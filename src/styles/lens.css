@@ -5,8 +5,8 @@
 
 .lens__wrapper{
 	display: grid;
-	align-items: center;
 	grid-template-columns: 1fr 1fr;
+	align-items: center;
 	gap: 86px;
 }
 
@@ -19,13 +19,13 @@
 }
 
 .lens__image{
-	position: relative;
 	display: flex;
+	position: relative;
 	justify-content: center;
 }
 
-.lens__image:before,
-.lens__image:after{
+.lens__image::before,
+.lens__image::after{
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
@@ -34,12 +34,12 @@
 	text-align: center;
 }
 
-.lens__image:before{
+.lens__image::before{
 	content: 'Обычная линза';
 	left: 10%;
 }
 
-.lens__image:after{
+.lens__image::after{
 	content: 'ED линза';
 	right: 10%;
 }
@@ -49,15 +49,14 @@
 }
 
 .title__primary span{
-	color: #ffffff;
+	color: #fff;
 }
 
 .title__secondary{
 	display: none;
 }
 
-@media (max-width: 1300px) {
-	
+@media (width <= 1300px) {
 	.lens__content {
 		padding: 100px 0;
 		background: url("../images/lens/bg_1300.webp") center center/cover no-repeat;
@@ -67,8 +66,8 @@
 		position: static;
 	}
 	
-	.lens__image:before,
-	.lens__image:after{
+	.lens__image::before,
+	.lens__image::after{
 		display: none;
 	}
 	
@@ -86,9 +85,7 @@
 	
 }
 
-@media (max-width: 980px) {
-	
-	
+@media (width <= 980px) {
 	.lens__content {
 		padding: 78px 0;
 		background: url("../images/lens/bg_980.webp") center center/cover no-repeat;
@@ -100,8 +97,7 @@
 	
 }
 
-@media (max-width: 768px) {
-	
+@media (width <= 768px) {
 	.lens__content {
 		padding: 118px 0;
 		background: url("../images/lens/bg_768.webp") center center/cover no-repeat;
@@ -112,25 +108,24 @@
 	}
 }
 
-@media (max-width: 568px) {
-	
-	
+@media (width <= 568px) {
 	.lens__content {
 		padding: 88px 0;
 		background: url("../images/lens/bg_568.webp") center center/cover no-repeat;
 	}
 	
 	.lens__wrapper{
-		grid-template-columns: 1fr;
 		gap: 30px;
+		grid-template-columns: 1fr;
 	}
 }
 
-@media (max-width: 320px) {
+@media (width <= 320px) {
 	.lens__content {
 		padding: 50px 0;
 		background: url("../images/lens/bg_568.webp") center center/cover no-repeat;
 	}
+
 	.lens__wrapper{
 		gap: 20px;
 	}

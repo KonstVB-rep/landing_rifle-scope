@@ -1,16 +1,17 @@
-@import 'hero.css';
-@import 'lens.css';
-@import 'cover.css';
-@import 'vision.css';
-@import 'sighting-grid.css';
-@import 'adjustment.css';
-@import 'warranty.css';
-@import 'complex.css';
-@import 'waterproof.css';
-@import 'anti-fogging.css';
-@import "lens-coating.css";
-@import "scope-body.css";
-@import "reliability.css";
+@import url('hero.css');
+@import url('lens.css');
+@import url('cover.css');
+@import url('vision.css');
+@import url('sighting-grid.css');
+@import url('adjustment.css');
+@import url('warranty.css');
+@import url('complex.css');
+@import url('waterproof.css');
+@import url('anti-fogging.css');
+@import url("lens-coating.css");
+@import url("scope-body.css");
+@import url("reliability.css");
+@import url("safety.css");
 
 :root{
 	--width-content: 90%;
@@ -21,14 +22,14 @@
 }
 
 *{
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html, body{
 	min-height: 100vh;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto, sans-serif;
 	font-weight: 400;
 }
 
@@ -50,10 +51,10 @@ html, body{
 
 .title{
 	display: inline-block;
-	font-size: 60px;
 	color:var(--color-title);
-	text-transform: uppercase;
+	font-size: 60px;
 	font-weight: 900;
+	text-transform: uppercase;
 }
 
 .title_red{
@@ -61,7 +62,7 @@ html, body{
 }
 
 .title_white{
-	color:#ffffff;
+	color:#fff;
 }
 
 
@@ -83,8 +84,7 @@ button{
 	border: none;
 }
 
-@media (max-width: 1300px){
-	
+@media (width <= 1300px){
 	.container-inner{
 		max-width: 970px;
 	}
@@ -103,8 +103,7 @@ button{
 
 }
 
-@media (max-width: 980px){
-	
+@media (width <= 980px){
 	.container-inner{
 		max-width: 750px;
 	}
@@ -119,8 +118,7 @@ button{
 
 }
 
-@media (max-width: 768px){
-	
+@media (width <= 768px){
 	.container-inner{
 		max-width: 568px;
 	}
@@ -131,8 +129,7 @@ button{
 
 }
 
-@media (max-width: 568px){
-	
+@media (width <= 568px){
 	.container-inner{
 		max-width: 320px;
 	}
@@ -147,8 +144,7 @@ button{
 
 }
 
-@media (max-width: 320px){
-	
+@media (width <= 320px){
 	.container-inner{
 		max-width: 260px;
 	}
@@ -159,24 +155,3 @@ button{
 
 }
 
-
-@media (max-width: 1300px){
-
-}
-
-@media (max-width: 980px){
-
-}
-
-@media (max-width: 768px){
-
-}
-
-@media (max-width: 568px){
-
-}
-
-@media (max-width: 320px){
-
-
-}

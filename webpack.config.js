@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const StylelintPlugin = require("stylelint-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require("webpack");
 const path = require("path");
@@ -32,6 +33,11 @@ module.exports = (env) => {
       new webpack.ProgressPlugin(),
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "src", "index.html"),
+      }),
+      new StylelintPlugin({
+        configFile: ".stylelintrc.json",
+        context: "src",
+        files: "**/*.css",
       }),
       new MiniCssExtractPlugin({
         filename: "[name].[contenthash].css",

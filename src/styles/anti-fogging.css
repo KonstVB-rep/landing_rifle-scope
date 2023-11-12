@@ -6,11 +6,9 @@
 		url("../images/anti-fogging/bg.webp") center center/cover no-repeat;
 }
 
-
-
 .anti-fogging__content{
 	position: relative;
-	color:#ffffff;
+	color:#fff;
 }
 
 .anti-fogging__description{
@@ -25,7 +23,7 @@
 	width: 70%;
 }
 
-@media (max-width:1300px) {
+@media (width <=1300px) {
 	.anti-fogging{
 		max-height: 522px;
 		padding-top: 66px;
@@ -38,8 +36,7 @@
 }
 
 
-@media (max-width:980px) {
-	
+@media (width <=980px) {
 	.anti-fogging{
 		max-height: 403px;
 		padding-top: 51px;
@@ -51,8 +48,7 @@
 	}
 }
 
-@media (max-width:768px) {
-	
+@media (width <=768px) {
 	.anti-fogging{
 		max-height: 403px;
 		padding-top: 44px;
@@ -65,7 +61,7 @@
 
 }
 
-@media (max-width: 568px){
+@media (width <= 568px){
 	.anti-fogging{
 		max-height: 380px;
 		padding-top: 51px;
@@ -86,11 +82,10 @@
 	
 }
 
-@media (max-width: 320px){
+@media (width <= 320px){
 	.anti-fogging{
 		padding-top: 40px;
 		padding-bottom: 50px;
 	}
-	
 	
 }
